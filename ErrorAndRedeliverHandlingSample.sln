@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorAndRedeliverHandlingSample", "ErrorAndRedeliverHandlingSample\ErrorAndRedeliverHandlingSample.csproj", "{AC54BEC1-69C4-4ADD-9F2F-ACB0C0F4B11C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorAndRedeliverHandlingSample.Contracts", "ErrorAndRedeliverHandlingSample.Contracts\ErrorAndRedeliverHandlingSample.Contracts.csproj", "{E53C6368-698D-47D4-9C02-396B3AD0FFA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorAndRedeliverHandlingSample.Producer", "ErrorAndRedeliverHandlingSample.Producer\ErrorAndRedeliverHandlingSample.Producer.csproj", "{118CB768-2711-4A94-B7AF-575D8CB36B22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4247E1E6-6F72-410C-82A9-FEA8AF74DA5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC54BEC1-69C4-4ADD-9F2F-ACB0C0F4B11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC54BEC1-69C4-4ADD-9F2F-ACB0C0F4B11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC54BEC1-69C4-4ADD-9F2F-ACB0C0F4B11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC54BEC1-69C4-4ADD-9F2F-ACB0C0F4B11C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53C6368-698D-47D4-9C02-396B3AD0FFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53C6368-698D-47D4-9C02-396B3AD0FFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53C6368-698D-47D4-9C02-396B3AD0FFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53C6368-698D-47D4-9C02-396B3AD0FFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118CB768-2711-4A94-B7AF-575D8CB36B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118CB768-2711-4A94-B7AF-575D8CB36B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118CB768-2711-4A94-B7AF-575D8CB36B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118CB768-2711-4A94-B7AF-575D8CB36B22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
